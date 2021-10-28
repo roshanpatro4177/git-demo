@@ -8,7 +8,7 @@ public class HelloContorller {
 	
 	@GetMapping("/hello")
 	public String getName() {
-		return "Hello World";
+		return "Hello World!!";
 	}
 
 }
