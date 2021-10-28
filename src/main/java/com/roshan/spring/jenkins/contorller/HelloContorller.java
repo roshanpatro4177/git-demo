@@ -10,5 +10,10 @@ public class HelloContorller {
 	public String getName() {
 		return "Hello World!!";
 	}
+	
+	@GetMapping("/hello1")
+	public String getName1() {
+		return "Hello World 1";
+	}
 
 }
